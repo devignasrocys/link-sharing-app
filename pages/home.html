@@ -29,7 +29,32 @@
         <section class="links-section">
             <h2>Customize your links</h2>
             <p class="gray">Add/edit/remove links below and then share all your profiles with the world!</p>
-            <button class="btn mg-t-2 secondary bold">+ Add new link</button>
+            <button id="add_link" class="btn mg-t-2 secondary bold">+ Add new link</button>
+            <article id="empty_links" class="card">
+                <img src="../assets/images/illustration-empty.svg" alt="">
+                <h2>Let's get you started</h2>
+                <p class="gray">Use the “Add new link” button to get started. Once you have more than one link, you can reorder and edit them. We’re here to help you share your profiles with everyone!</p>
+            </article>
+            <ul id="links_list">
+                <li class="link-card">
+                    <div class="row">
+                        <p>= <b>Link #1</b></p>
+                        <button class="btn-small">Remove</button>
+                    </div>
+                    <div class="column">
+                        <p>Platform</p>
+                        <div class="drop-down">
+                            <ul>
+                                <li class="drop-down-link">
+                                    <img src="../assets/images/icon-github.svg" alt="github icon"/>
+                                    <p>GitHub</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <button class="btn mg-t-2 bold">Save</button>
         </section>
     </div>
     <script src="../scripts/script.js"></script>
